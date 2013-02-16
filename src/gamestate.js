@@ -1,4 +1,4 @@
-define("GameState", function() {
+define("gamestate", function() {
 	return Class.create({
 		initialize : function() {
 			throw "Not implemented";
@@ -12,6 +12,10 @@ define("GameState", function() {
 		},
 
 		nextState : function() {
+			throw "Not implemented";
+		},
+		
+		getStateName : function() {
 			throw "Not implemented";
 		}
 	});
